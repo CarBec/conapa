@@ -1,0 +1,175 @@
+@Charset "utf-8";
+/* CSSDocument */
+
+
+#encabezado{
+	font-family:Georgia;
+	background-color:LimeGreen;
+
+}
+
+#logo{
+	color:darkgreen;
+	margin-left:0px;
+}
+
+
+body{
+	font-family:Georgia;
+	background-color:powderblue;
+}
+
+#titulo{
+	border: 3px solid limegreen;
+	padding:10px;
+	background-color:orange;
+	color:darkgreen;
+	text-align:center;
+}
+
+#bloque_de_navegacion{
+
+	font-size:125%;
+	background-color:powderblue;
+	text-align:center;
+}
+
+li{
+	display:inline;
+}
+
+#centrado{
+	text-align:center;
+}
+
+.mod_boton1 {
+  padding: 10px 25px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.mod_boton1:hover {background-color: limegreen;}
+.mod_boton1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.mod_boton2{
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 17px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.mod_boton2:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.mod_boton2:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+#barra_lateral_izquierda{
+	background-color:LimeGreen;
+	float:left;
+	height:900px;
+	padding-top:15px;
+}
+
+div.parrafos{
+		background-color:khaki;
+		padding:10px;
+}
+
+
+#section{
+	color:darkgreen;
+	margin-left:250px;
+	padding-left:50px;
+}
+#centrado_texto{
+color:darkgreen;
+text-align:center;
+padding-left:20px;
+padding-right:20px;
+}
+
+#footer{
+background-color:khaki;
+color:darkgreen;
+clear:both;
+text-align:center;
+}
+
+a:link {
+    color: darkgreen;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: darkgreen;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: mediumblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+table{
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th{
+	border: 1px solid darkgreen;
+	text-align:center;
+	padding: 10px;
+}
+
+tr:nth-child(even){
+	background-color:#dddddd;
+}
+
+
+#formato_ubicacion{
+	margin-left:125px;
+	margin-right:125px;
+}
